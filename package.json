@@ -4,7 +4,8 @@
   "description": "esame di febbraio",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "test": "dahhfsg"
   },
   "repository": {
     "type": "git",
