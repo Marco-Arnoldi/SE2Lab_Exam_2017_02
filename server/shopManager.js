@@ -257,9 +257,34 @@ var restockItem = function restockItem(item)
 
 //ADD YOUR CODE BELOW THIS COMMENT, IF IT IS POSSIBLE
 
+/**
+ * @brief Funzione che sconta i prezzi il cui anno(season) corisponde a year
+ * @param Due interi years e discount
+ * @return Un array con gli elementi il cui prezzo è stato scontato
+ */
+
+
+var sales = function sales(year,discount)
+{
+    var array = new Array();
+    for(var i = 0; i< warehouse.length; i++)
+    {
+        if(warehouse[i].season == year)
+        {   
+            warehouse[i].price = parseInt(warehouse[i].price/100)*(100 - discount));
+            array.push(warehouse[i])
+        }
+    }
+    return array;
+}
+
+
+
 //export functions
 exports.getWarehouse = getWarehouse; 
 exports.searchItems = searchItems; 
 exports.sellItem = sellItem; 
 exports.restockItem = restockItem; 
-exports.sales = sales; 
+exports.sales = sales;
+
+/*exports.modificaprezzo = modificaprezzo;*/

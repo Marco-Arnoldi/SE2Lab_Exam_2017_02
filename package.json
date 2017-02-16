@@ -1,0 +1,19 @@
+{
+  "name": "esame",
+  "version": "1.0.0",
+  "description": "esame di febbraio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marco-Arnoldi/SE2Lab_Exam_2017_02.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marco-Arnoldi/SE2Lab_Exam_2017_02/issues"
+  },
+  "homepage": "https://github.com/Marco-Arnoldi/SE2Lab_Exam_2017_02#readme"
+}

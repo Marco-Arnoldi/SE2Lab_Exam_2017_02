@@ -112,6 +112,12 @@ paths:
             type: array
             items:
               $ref: "#/definitions/item"
+	406:
+          description: ID of error
+          schema: 
+            properties:
+              error:
+                type: integer	
           
 definitions:
   item:
